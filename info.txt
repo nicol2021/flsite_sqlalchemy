@@ -1,0 +1,41 @@
+01. flsite_sqlalchemy---> continuation of "flasksite"   [22.05.2022 21:19]
+	.h[ps[ht] -- 11.04.2022 -- uyhr_4dyhlije_1s2s3u4a__kjr_dg5437@577111]
+	.h[==>>yeio491dflijeburmasshyrpowru784jeio6128000]
+	.h[===urt4850hgflidjecotburmasshwurbdhj34893710]
+	.h[===jti3rlldlidjestrburmasshnfkghuy64931235]
+
+02. links:	https://proproprogs.ru/flask/flask-sqlalchemy-ustanovka-sozdanie-tablic-dobavlenie-zapisey
+		https://github.com/selfedu-rus/flsite_sqlalchemy-23
+
+03. project management:
+	1)[create...] -> app.py	
+	> cd D:\OneDrive\flsite_sqlalchemy	[cd /d D:\OneDrive\flsite_sqlalchemy]
+   	> python -m venv fsq/
+   	> fsq\Scripts\activate
+	> (fsq) D:\OneDrive\flsite_sqlalchemy>
+   	> pip install flask
+   	> pip install Flask-SQLAlchemy
+	----------
+	2)[next...]
+	> cd D:\OneDrive\flsite_sqlalchemy	[cd /d D:\OneDrive\flsite_sqlalchemy]
+   	> fsq\Scripts\activate
+	> (fsq) D:\OneDrive\flsite_sqlalchemy\app.py
+       		* Running on http://127.0.0.1:5000/
+
+04. create bd:
+	> cd D:\OneDrive\flsite_sqlalchemy	[cd /d D:\OneDrive\flsite_sqlalchemy]
+	> py
+	>>> from app import db
+	>>> db.create_all()
+
+05. git:
+	> cd D:\OneDrive\flsite_sqlalchemy	[cd /d D:\OneDrive\flsite_sqlalchemy]
+	> git init
+	> git status
+	> git add . 	[git add x1.txt x2.txt]		[git add forgotten_file]
+	> git commit -m "up_xxxxxx"		[git commit --amend -m "new name"]
+	> git remote -v		[git remote add origin git@github.com:nicol2021/flsite_sqlalchemy.git]
+	> git push origin master		[git pull origin master]
+
+06. xxx
+
